@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'user',
+    'foreman',
+    'superuser',
+    'workstations'
 ]
 
 MIDDLEWARE = [

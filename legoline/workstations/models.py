@@ -1,8 +1,6 @@
 from django.db import models
-from foreman.models import ForemanInfo
 
 class WorkStations(models.Model):
-    worker= models.ForeignKey(ForemanInfo, on_delete=models.CASCADE)
     workstation_cycle_time= models.FloatField(default=0)
     transportation_time= models.FloatField(default=0)
     created_at = models.DateTimeField(
